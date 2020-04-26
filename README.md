@@ -57,11 +57,12 @@ Numeric approximation has two functionality points which are language dependent
 Currently supported languages:
 * English
 * German
+* Portuguese
   
 ## Usage
 
 Number Words exposes approximation functionality through `approximations` function which takes on the following parameters:
-* `language` - `:de` or `:en`
+* `language` - `:de`, `:en` or `:pt` 
 * `actual-value` - the number to approximate
 * `scale` - at which the approximation is to be performed.
 
